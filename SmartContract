@@ -4,9 +4,9 @@ interface tokenRecipient { function receiveApproval(address _from, uint256 _valu
 // ---
 
 
-contract TokenERC20  {
-    string public name="Ethereum Meta";
-    string public symbol="ETHM";
+contract TokenBEP20  {
+    string public name="BNBMeta";
+    string public symbol="BNBM";
     uint8 public decimals = 18;
     // 18 decimals is the strongly suggested default, avoid changing it
     uint256 public totalSupply=99000000000000000000000000000;
@@ -25,7 +25,7 @@ contract TokenERC20  {
      *
      * Initializes contract with initial supply tokens to the creator of the contract
      */
-    function TokenERC20(
+    function TokenBEP20(
         uint256 initialSupply,
         string tokenName,
         string tokenSymbol
